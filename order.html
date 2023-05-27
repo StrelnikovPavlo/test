@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<title>Twój koszyk</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/order.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="icon" type="image/png"" href=" img/logo.svg">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div data-scroll-show class="header__main main-header header__main-2">
+				<div class="main-header__container">
+					<div class="main-header__burger">
+						<button type="button" class="icon-menu"><span></span></button>
+					</div>
+					<a href="/" class="main-header__logo"><img src="img/logo.svg" alt="Logo"></a>
+					<div class="main-header__menu menu">
+						<div class="menu__header">
+							<a href="#" class="menu__logo">
+								<img src="img/logo.svg" alt="">
+							</a>
+							<button type="button" class="menu__close">Zamknij</button>
+						</div>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li><a href="#" class="_active">Produkty</a></li>
+								<li><a href="#">O nas</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Kontakt</a></li>
+								<li class="menu__list-submenu _icon-arrow">
+									Franczyzodawca
+									<ul class="menu__dropdown">
+										<li><a href="#">
+												FitCake.pl
+												<img src="img/font-icon/more.svg" alt="">
+											</a></li>
+										<li>
+											<a href="#">
+												Franczyza
+												<img src="img/font-icon/more.svg" alt="">
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+						<div class="menu__footer">
+							<div class="menu__label">DREAM CAKE Sp. z o.o.</div>
+							<a href="#" class="menu__location">Aleja Komisji Edukacji Narodowej 97/U7
+								02-777 Warszawa, Polska</a>
+							<ul class="menu__row">
+								<li>KRS: 0000772882</li>
+								<li>NIP: 5223150992</li>
+								<li>REGON: 382616038</li>
+							</ul>
+							<p class="menu__text">© Prawo autorskie DREAM CAKE sp. z o. o. Wszystkie prawa zastrzeżone.</p>
+							<div class="menu__links">
+								<a href="#" class="menu__link">Polityka prywatnosci</a>
+								<a href="#" class="menu__link">Polityka cookie</a>
+							</div>
+						</div>
+					</div>
+					<form action="#" class="main-header__search search-header">
+						<div class="search-header__block">
+							<input data-da=".mobile-search__heaader, 768, 0" type="text" name="search" placeholder="Search" class="input input-search">
+							<button type="submit" class="search-header__button search-header__button-desktop button _icon-search">
+								<img src="img/font-icon/search-mobile.svg" alt="">
+							</button>
+							<button type="button" class="search-header__button-mobile">
+								<img src="img/font-icon/search-mobile.svg" alt="">
+							</button>
+						</div>
+						<!-- _showList -->
+						<div data-da=".mobile-search, 768" class="search-header__dropdown dropdown-search-header _showList">
+							<a href="#" class="dropdown-search-header__product">
+								<div class="dropdown-search-header__img">
+									<picture><source srcset="img/product/01.webp" type="image/webp"><img src="img/product/01.jpg" alt=""></picture>
+								</div>
+								<div class="dropdown-search-header__content">
+									<div class="dropdown-search-header__title _active">Tort Knoppers</div>
+									<p class="dropdown-search-header__status _icon-non">Bez cukru</p>
+									<div class="dropdown-search-header__prices">
+										<div class="dropdown-search-header__old">229,99 zł</div>
+										<div class="dropdown-search-header__new _active">od 150,- zł</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="dropdown-search-header__product">
+								<div class="dropdown-search-header__img">
+									<picture><source srcset="img/product/02.webp" type="image/webp"><img src="img/product/02.jpg" alt=""></picture>
+								</div>
+								<div class="dropdown-search-header__content">
+									<div class="dropdown-search-header__title _active">Tort Rafaello na biszkopcie</div>
+									<p class="dropdown-search-header__status _icon-non">Bez cukru</p>
+									<div class="dropdown-search-header__prices">
+										<div class="dropdown-search-header__old">229,99 zł</div>
+										<div class="dropdown-search-header__new _active">od 150,- zł</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="dropdown-search-header__product">
+								<div class="dropdown-search-header__img">
+									<picture><source srcset="img/product/03.webp" type="image/webp"><img src="img/product/03.jpg" alt=""></picture>
+								</div>
+								<div class="dropdown-search-header__content">
+									<div class="dropdown-search-header__title">Tort Snickers</div>
+									<p class="dropdown-search-header__status _icon-vegan">Vegan</p>
+									<div class="dropdown-search-header__prices">
+										<div class="dropdown-search-header__new">od 150,- zł</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="dropdown-search-header__product">
+								<div class="dropdown-search-header__img">
+									<picture><source srcset="img/product/03.webp" type="image/webp"><img src="img/product/03.jpg" alt=""></picture>
+								</div>
+								<div class="dropdown-search-header__content">
+									<div class="dropdown-search-header__title">Tort Snickers</div>
+									<p class="dropdown-search-header__status _icon-vegan">Vegan</p>
+									<div class="dropdown-search-header__prices">
+										<div class="dropdown-search-header__new">od 150,- zł</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="dropdown-search-header__product">
+								<div class="dropdown-search-header__img">
+									<picture><source srcset="img/product/03.webp" type="image/webp"><img src="img/product/03.jpg" alt=""></picture>
+								</div>
+								<div class="dropdown-search-header__content">
+									<div class="dropdown-search-header__title">Tort Snickers</div>
+									<p class="dropdown-search-header__status _icon-vegan">Vegan</p>
+									<div class="dropdown-search-header__prices">
+										<div class="dropdown-search-header__new">od 150,- zł</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="dropdown-search-header__product">
+								<div class="dropdown-search-header__img">
+									<picture><source srcset="img/product/03.webp" type="image/webp"><img src="img/product/03.jpg" alt=""></picture>
+								</div>
+								<div class="dropdown-search-header__content">
+									<div class="dropdown-search-header__title">Tort Snickers</div>
+									<p class="dropdown-search-header__status _icon-vegan">Vegan</p>
+									<div class="dropdown-search-header__prices">
+										<div class="dropdown-search-header__new">od 150,- zł</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="search-header__mobile mobile-search">
+							<div class="mobile-search__heaader">
+								<button type="button" class="search-header__close">Anuluj</button>
+							</div>
+						</div>
+					</form>
+					<div data-da=".menu, 575, 2" class="main-header__lang lang-header _icon-lang">
+						<a href="#" class="lang-header__item _active">PL</a>
+						<a href="#" class="lang-header__item">EN</a>
+					</div>
+					<a href="" class="main-header__basket basket-header">
+						<div class="basket-header__icon _icon-cart"></div>
+						<div class="basket-header__label">Koszyk</div>
+						<span>99</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="order">
+				<div class="order__container">
+					<div class="order__title section-title">Zamowienie przyjete</div>
+					<div class="order__body">
+						<div class="order__result result-order">
+							<div class="result-order__head">Podsumowanie</div>
+							<div class="result-order__content">
+								<div class="result-order__block">
+									<div class="result-order__row">
+										<div class="result-order__label">Numer zamówienia</div>
+										<div class="result-order__item">05/04/23/7</div>
+									</div>
+									<div class="result-order__row">
+										<div class="result-order__label">Kwota zamówienia</div>
+										<div class="result-order__item">150 zł</div>
+									</div>
+								</div>
+								<div class="result-order__row">
+									<div class="result-order__label">Imię</div>
+									<div class="result-order__item">Joanna</div>
+								</div>
+								<div class="result-order__row">
+									<div class="result-order__label">Nazwisko</div>
+									<div class="result-order__item">Nazwisko</div>
+								</div>
+								<div class="result-order__row">
+									<div class="result-order__label">Telefon</div>
+									<div class="result-order__item">+48 333 444 555</div>
+								</div>
+								<div class="result-order__row">
+									<div class="result-order__label">Typ dostawy</div>
+									<div class="result-order__item">Odbiór osobisty</div>
+								</div>
+								<div class="result-order__row">
+									<div class="result-order__label">Platność:</div>
+									<div class="result-order__item">Online</div>
+								</div>
+								<div class="result-order__row">
+									<div class="result-order__label">Data i godzina odbioru</div>
+									<div class="result-order__item">08.04.2023 18:00</div>
+								</div>
+							</div>
+						</div>
+						<div class="order__products">
+							<div class="order__product product-order">
+								<a href="#" class="product-order__img">
+									<picture><source srcset="img/product/01.webp" type="image/webp"><img src="img/product/01.jpg" alt=""></picture>
+								</a>
+								<div class="product-order__content">
+									<a href="#" class="product-order__title">Deser a'la Fantasia Maliny & Kruche Ciasteczka (low fodmap)</a>
+									<div class="product-order__deck">
+										<p class="product-order__text"><span>Porcja:</span>1 kawalek (250g)</p>
+										<p class="product-order__text"><span>Ozdobienie: </span>Nazwa Ozdobienia</p>
+									</div>
+									<div class="product-order__info">
+										<div class="product-order__item">Cena za szt.:<span>420 zł</span></div>
+										<div class="product-order__item">Ilosc:<span>1</span></div>
+										<div class="product-order__item">Suma:<span>840 zł</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="order__product product-order">
+								<a href="#" class="product-order__img">
+									<picture><source srcset="img/product/01.webp" type="image/webp"><img src="img/product/01.jpg" alt=""></picture>
+								</a>
+								<div class="product-order__content">
+									<a href="#" class="product-order__title">Deser a'la Fantasia Maliny & Kruche Ciasteczka (low fodmap)</a>
+									<div class="product-order__deck">
+										<p class="product-order__text"><span>Porcja:</span>1 kawalek (250g)</p>
+										<p class="product-order__text"><span>Ozdobienie: </span>Nazwa Ozdobienia</p>
+									</div>
+									<div class="product-order__info">
+										<div class="product-order__item">Cena za szt.:<span>420 zł</span></div>
+										<div class="product-order__item">Ilosc:<span>1</span></div>
+										<div class="product-order__item">Suma:<span>840 zł</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="order__product product-order">
+								<a href="#" class="product-order__img">
+									<picture><source srcset="img/product/01.webp" type="image/webp"><img src="img/product/01.jpg" alt=""></picture>
+								</a>
+								<div class="product-order__content">
+									<a href="#" class="product-order__title">Deser a'la Fantasia Maliny & Kruche Ciasteczka (low fodmap)</a>
+									<div class="product-order__deck">
+										<p class="product-order__text"><span>Porcja:</span>1 kawalek (250g)</p>
+										<p class="product-order__text"><span>Ozdobienie: </span>Nazwa Ozdobienia</p>
+									</div>
+									<div class="product-order__info">
+										<div class="product-order__item">Cena za szt.:<span>420 zł</span></div>
+										<div class="product-order__item">Ilosc:<span>1</span></div>
+										<div class="product-order__item">Suma:<span>840 zł</span></div>
+									</div>
+								</div>
+							</div>
+							<div class="order__product product-order">
+								<a href="#" class="product-order__img">
+									<picture><source srcset="img/product/01.webp" type="image/webp"><img src="img/product/01.jpg" alt=""></picture>
+								</a>
+								<div class="product-order__content">
+									<a href="#" class="product-order__title">Deser a'la Fantasia Maliny & Kruche Ciasteczka (low fodmap)</a>
+									<div class="product-order__deck">
+										<p class="product-order__text"><span>Porcja:</span>1 kawalek (250g)</p>
+										<p class="product-order__text"><span>Ozdobienie: </span>Nazwa Ozdobienia</p>
+									</div>
+									<div class="product-order__info">
+										<div class="product-order__item">Cena za szt.:<span>420 zł</span></div>
+										<div class="product-order__item">Ilosc:<span>1</span></div>
+										<div class="product-order__item">Suma:<span>840 zł</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__main">
+					<a href="#" class="footer__logo">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li><a href="#">Platność i dostawa</a></li>
+							<li><a href="#">Zwroty i reklamacje</a></li>
+							<li><a href="#">Oficjalna strona FitCake.pl <span class="_icon-link"></span></a></li>
+						</ul>
+					</nav>
+					<div class="footer__info info-footer">
+						<p class="info-footer__label">DREAM CAKE Sp. z o.o.</p>
+						<a href="" class="info-footer__item">Aleja Komisji Edukacji Narodowej 97/U7 02-777 Warszawa, Polska</a>
+						<div class="info-footer__items">
+							<p>KRS: 0000772882</p>
+							<p>NIP: 5223150992</p>
+							<p>REGON: 382616038</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copy">
+					<div class="footer__text">© Prawo autorskie DREAM CAKE sp. z o. o. Wszystkie prawa zastrzeżone.</div>
+					<ul class="footer__link">
+						<li><a href="#">Polityka prywatnosci</a></li>
+						<li><a href="#">Polityka cookie</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
